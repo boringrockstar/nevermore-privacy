@@ -48,7 +48,7 @@ h2 { margin: 6px 0 0; font-size: clamp(2.1rem, 7vw, 3.5rem); }
 h3 { margin: 0 0 12px; font-size: 1.32rem; }
 
 .intro { max-width: 600px; color: var(--muted); font-size: 1.12rem; }
-nav { display: flex; gap: 12px; margin-top: 28px; }
+nav { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
 nav a {
   padding: 9px 14px;
   border: 1px solid var(--line);
